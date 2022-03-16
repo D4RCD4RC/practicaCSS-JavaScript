@@ -13,6 +13,11 @@
   box-sizing: border-box;
   font-family: 'NuovaVolte';
 }
+
+body {
+  margin-bottom: 50rem;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -191,4 +196,266 @@ div {
   border: 5px solid #a09e9e93;
   margin-bottom: 8rem;
   margin-left: 2rem;
+}
+/************* Modelo 186*************/
+
+[class='modelos'] > section:first-child {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.507);
+}
+
+[class='modelos'] > section:first-child h1 {
+  font-size: 6rem;
+  padding: 4rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+[class='modelos'] img {
+  width: 50rem;
+  margin: auto;
+  display: block;
+}
+
+[class='modelos'] > section:first-child h3 {
+  font-size: 2rem;
+  padding: 4rem;
+  margin-left: 2rem;
+  color: #047ef8;
+}
+
+[class='modelos'] > section:first-child h2 {
+  font-size: 4rem;
+  padding: 4rem;
+  margin-left: 2rem;
+}
+
+[class='modelos'] > section:first-child p {
+  font-size: 2.5rem;
+  color: rgba(128, 128, 128, 0.685);
+  line-height: 5rem;
+  padding: 4rem;
+  margin-left: 2rem;
+}
+
+[class='btnfeb'] {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4rem;
+}
+
+[class='btnfeb'] button:first-child {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: #047ef8;
+  border-radius: 10px;
+  border: 0px;
+  width: 20rem;
+  height: 9rem;
+  margin: 4rem;
+  border: 5px solid #a09e9e93;
+  margin-bottom: 8rem;
+  margin-left: 2rem;
+}
+
+[class='btnfeb'] button:last-child {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000000;
+  background: #fafafa;
+  border-radius: 10px;
+  border: 0px;
+  width: 20rem;
+  height: 9rem;
+  margin: 4rem;
+  border: 5px solid #a09e9e93;
+  margin-bottom: 8rem;
+  margin-left: 2rem;
+}
+
+/************* Modelo 185*************/
+
+[class='modelos'] > section:nth-child(2),
+[class='modelos'] > section:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.507);
+  font-size: 6rem;
+  padding: 4rem;
+  margin-top: 2rem;
+}
+[class='modelos'] > section:nth-child(2) img,
+[class='modelos'] > section:nth-child(3) img {
+  width: 50rem;
+  justify-content: center;
+  margin: auto;
+  display: block;
+}
+
+[class='modelos'] > section:nth-child(2) h3,
+[class='modelos'] > section:nth-child(3) h3 {
+  font-size: 2rem;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  color: #047ef8;
+}
+
+[class='modelos'] > section:nth-child(2) h2,
+[class='modelos'] > section:nth-child(3) h2 {
+  font-size: 4rem;
+  padding-top: 4rem;
+  padding-left: 2rem;
+}
+
+[class='modelos'] > section:nth-child(2) p,
+[class='modelos'] > section:nth-child(3) p {
+  font-size: 2.5rem;
+  color: rgba(128, 128, 128, 0.685);
+  line-height: 5rem;
+  padding-top: 4rem;
+  margin-left: 2rem;
+}
+
+[class='btnJan'],
+[class='btnDic'] {
+  display: flex;
+  flex-direction: row;
+}
+
+[class='btnJan'] button:first-child,
+[class='btnDic'] button:first-child {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: #047ef8;
+  border-radius: 10px;
+  border: 0px;
+  width: 20rem;
+  height: 9rem;
+  margin: 4rem;
+  border: 5px solid #a09e9e93;
+  margin-bottom: 8rem;
+  margin-left: 2rem;
+}
+
+[class='btnJan'] button:last-child,
+[class='btnDic'] button:last-child {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000000;
+  background: #fafafa;
+  border-radius: 10px;
+  border: 0px;
+  width: 20rem;
+  height: 9rem;
+  margin: 4rem;
+  border: 5px solid #a09e9e93;
+  margin-bottom: 8rem;
+  margin-left: 2rem;
+}
+
+/*********Planes de 3 month y 1 year*************/
+
+[class='monthYear'] section:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #047ef8;
+  color: white;
+}
+
+[class='monthYear'] section:first-child li,
+[class='monthYear'] section:last-child li {
+  list-style: none;
+}
+[class='monthYear'] section:first-child li::before,
+[class='monthYear'] section:last-child li::before {
+  list-style: none;
+  content: '✔️';
+}
+
+[class='monthYear'] section:first-child h1,
+[class='monthYear'] section:last-child h1 {
+  font-size: 7rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+[class='monthYear'] section:first-child p,
+[class='monthYear'] section:last-child p {
+  font-size: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  line-height: 6rem;
+}
+
+[class='monthYear'] section:first-child h2,
+[class='monthYear'] section:last-child h2 {
+  font-size: 5rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+[class='monthYear'] section:first-child ul li,
+[class='monthYear'] section:last-child ul li {
+  font-size: 2rem;
+  margin-left: 4rem;
+  margin-left: 2rem;
+  line-height: 6rem;
+}
+[class='btnCompra'],
+[class='btnYear'] {
+  display: flex;
+  flex-direction: column;
+}
+
+[class='btnCompra'] > button:first-child,
+[class='btnYear'] > button:first-child {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #047ef8;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 0px;
+  width: 30rem;
+  height: 9rem;
+  margin: 4rem;
+  border: 5px solid #a09e9e93;
+  margin-bottom: 8rem;
+  margin-left: 2rem;
+}
+
+[class='btnCompra'] > button:last-child,
+[class='btnYear'] > button:last-child {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: #047ef8;
+  border-radius: 10px;
+  border: 8px solid white;
+  width: 20rem;
+  height: 9rem;
+  margin: 4rem;
+  margin-bottom: 8rem;
+  margin-left: 2rem;
+}
+
+[class='monthYear'] section:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #000000;
+  color: white;
+  padding-bottom: 10rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+footer img {
+  padding: 1rem;
 }
