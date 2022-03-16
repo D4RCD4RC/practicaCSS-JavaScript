@@ -510,3 +510,16 @@ body {
   font-size: 3rem;
   height: 0vmin;
 }
+
+/* RESPONSIVE PARA IPAD MINI 1024px  */
+@media;
+
+.menu ul {
+  font-size: 1.5rem;
+}
+.menu a:hover {
+  background-color: #cc673b;
+}
+.menu ul li ul {
+  display: flex;
+}
