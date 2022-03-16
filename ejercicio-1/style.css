@@ -18,6 +18,7 @@ body {
   margin-bottom: 50rem;
 }
 
+/********* HEADER ************/
 header {
   display: flex;
   justify-content: space-between;
@@ -57,6 +58,8 @@ header img:nth-child(2) {
 .menu ul li ul:hover {
   display: block;
 }
+
+/**************** FIRST SECTION **********/
 
 main > section:first-child {
   border-bottom: 2px solid rgba(128, 128, 128, 0.507);
@@ -124,7 +127,7 @@ div {
 [class='middle'] li {
   margin: 1rem;
 }
-
+/************* Modelo 187 ***************/
 [clash='img187'] {
   display: flex;
   flex-direction: column;
@@ -450,7 +453,7 @@ div {
   color: white;
   padding-bottom: 10rem;
 }
-
+/****** footer *******/
 footer {
   display: flex;
   justify-content: space-between;
@@ -458,4 +461,5 @@ footer {
 }
 footer img {
   padding: 1rem;
+  border: 2px solid #75727257;
 }
