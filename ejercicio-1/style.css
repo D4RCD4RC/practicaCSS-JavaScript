@@ -454,7 +454,7 @@ div {
   padding-bottom: 10rem;
 }
 /****** footer *******/
-footer {
+body > footer {
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
@@ -462,4 +462,51 @@ footer {
 footer img {
   padding: 1rem;
   border: 2px solid #75727257;
+}
+
+/* RESPONSIVE PARA IPAD MINI 768 x 1024 */
+
+@media;
+.menu ul {
+  font-size: 4rem;
+}
+
+main > section:first-child > p {
+  font-size: 3rem;
+}
+
+[clash='img187'] h3 {
+  font-size: 3rem;
+}
+
+[clash='img187'] p {
+  font-size: 3rem;
+}
+
+[class='modelos'] > section:first-child h3 {
+  font-size: 3rem;
+}
+
+[class='modelos'] > section:first-child p {
+  font-size: 3rem;
+}
+
+[class='modelos'] > section:nth-child(2) h3,
+[class='modelos'] > section:nth-child(3) h3 {
+  font-size: 3rem;
+}
+
+[class='modelos'] > section:nth-child(2) p,
+[class='modelos'] > section:nth-child(3) p {
+  font-size: 3rem;
+}
+
+[class='monthYear'] section:first-child ul li,
+[class='monthYear'] section:last-child ul li {
+  font-size: 3rem;
+}
+
+body {
+  font-size: 3rem;
+  height: 0vmin;
 }
